@@ -1,1 +1,5 @@
-  // $('.input-field').trigger('autoresize');
+
+
+$(document).ready(function() {
+   $('.first_name').trigger('autoresize');
+});

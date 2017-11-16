@@ -1,18 +1,40 @@
-  h1{
-    text-align: center;
+  h1 {
+      text-align: center;
   }
-  .brand-logo{
-    margin-left: 30px;
+  
+  .nav-wrapper.grey.darken-1 {
+      padding-bottom: 60px;
   }
-  /*sticky footer*/
+  
+  nav {
+      padding-bottom: 10px;
+      background-color: #BBBCBF;
+  }
+  
+  .brand-logo {
+      margin-left: 30px;
+  }
+  
   body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+      background: #F1F4F4;
   }
-
+  
   main {
-    flex: 1 0 auto;
+      flex: 1 0 auto;
   }
-  /*sticky footer*/
+  
+  body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+  }
+  
+  main {
+      flex: 1 0 auto;
+  }
 
+  #pImages{
+    display: flex;
+    float: left;
+    margin: 4px;
+  }
