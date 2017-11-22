@@ -8,7 +8,7 @@
   
   nav {
       padding-bottom: 10px;
-      background-color: #BBBCBF;
+      background-color: transparent;
   }
   
   .brand-logo {
@@ -16,7 +16,7 @@
   }
   
   body {
-      background: #F1F4F4;
+      background: url("images/background.jpg") no-repeat fixed center;
   }
   
   main {
