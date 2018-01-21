@@ -1,5 +1,7 @@
 
 
 $(document).ready(function() {
-   $('.first_name').trigger('autoresize');
+     $('select').material_select();
+       $('.input-field').val('New Text');
+  $('.input-field').trigger('autoresize');
 });

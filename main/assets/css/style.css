@@ -16,7 +16,8 @@
   }
   
   body {
-      background: url("images/background.jpg") no-repeat fixed center;
+      /*background: url("images/background.jpg") no-repeat fixed center;*/
+      background-color: #26638F;
   }
   
   main {
@@ -27,14 +28,32 @@
       display: flex;
       min-height: 100vh;
       flex-direction: column;
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Open Sans', sans-serif;
   }
   
   main {
       flex: 1 0 auto;
   }
 
-  #pImages{
-    display: flex;
+  #pImages  {
+    display: fixed;
     float: left;
     margin: 4px;
+
+  }
+
+  .card.horizontal  {
+    border-radius: 25px;
+  }
+
+  #linkedin {
+    margin-left: 50px;
+    font-size: 30px;
+  }
+
+  #a_link,
+  #c_link,
+  #p_link  {
+    font-size: 25px;
   }
